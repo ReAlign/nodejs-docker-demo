@@ -4,7 +4,9 @@
   "description": "nodejs-docker-demo",
   "main": "index.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "docker-build": "docker build . -t 127.0.0.1:5000/x/node-mongo-web",
+    "docker-push": "docker push 127.0.0.1:5000/x/node-mongo-web"
   },
   "dependencies": {
     "express": "4.17.1",
