@@ -8,7 +8,7 @@ const tpl = require('./tpl');
 
 // Constants
 const PORT = 8085;
-const HOST = '127.0.0.1';
+const HOST = '0.0.0.0';
 
 // App
 const app = express();
