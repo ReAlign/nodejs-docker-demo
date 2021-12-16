@@ -4,6 +4,6 @@ COPY package*.json ./
 COPY .npmrc ./
 RUN npm install
 COPY ./src src/
-EXPOSE 8084
+EXPOSE 8085
 RUN cd src && ls -la
 ENTRYPOINT [ "npm", "start" ]
