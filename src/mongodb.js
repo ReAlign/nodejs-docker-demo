@@ -1,5 +1,5 @@
 const MongoClient = require('mongodb').MongoClient;
-const url = 'mongodb://realign-mongo_extnetwork:27017';
+const url = 'mongodb://172.22.0.8:27017';
 
 module.exports = () => {
   return new Promise((resolve, reject) => {
