@@ -1,5 +1,5 @@
 const MongoClient = require('mongodb').MongoClient;
-const url = 'mongodb://mongolink:27017';
+const url = 'mongodb://mongo:27017';
 
 module.exports = () => {
   return new Promise((resolve, reject) => {
