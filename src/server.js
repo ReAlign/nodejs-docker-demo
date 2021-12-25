@@ -13,7 +13,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  const title = 'Node.js Mongodb Demo';
+  const title = 'Node.js Mongodb Demo By Registry Local';
   const date = new Date();
   // res.send(tpl({
   //   title,
